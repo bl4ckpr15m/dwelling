@@ -7,6 +7,8 @@
 * docker
 * sql (MySQL, postgres...)
 
+or you can skip the installation and run by going to the docker approach.
+
 ## Install
 I hardly recommend to install [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html)
 ```bash
@@ -16,6 +18,10 @@ $ pip install -r requirements.txt
 ## Run
 ```bash
 $ python manage.py runserver 0.0.0.0:8000
+```
+## Docker
+```bash
+$ docker-compose up
 ```
 ## Structure
 ```bash
