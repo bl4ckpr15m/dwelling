@@ -24,6 +24,7 @@ INSTALLED_APPS = [
         'rest_framework',
         'emoji',
         'import_export',
+        'django_markdown',
         'ctf',
         ]
 
